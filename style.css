@@ -1,0 +1,62 @@
+.o{
+    width: 400px;
+    height: 400px;
+    border: 12px solid yellow;
+    margin: 12px;
+    padding: 15px;
+    border-width: 30px;
+    /* viền trên của hộp*/
+    border-top-width:2px;
+
+    border-bottom-style:double ;
+
+    /* màu viền của hộp*/
+    border-color: turquoise;
+
+    border-top-color:chocolate ;
+
+    border-bottom-color: blue;
+    /* khoảng cách*/
+    padding:12px 10px 15px 12px ;
+    text-align: center;
+    border-image: url('https://images.search.yahoo.com/images/view;_ylt=Awr9FqwwhM1hFCgAaUmJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2UxNGQ5ZmVjZWNiMzQwZmY3N2YwNDU2YTdhZDdjYWViBGdwb3MDMTg2BGl0A2Jpbmc-?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dh%25C3%25ACnh%2B%25E1%25BA%25A3nh%2Bc%25C3%25BAn%2Bcon%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D186&w=1920&h=1080&imgurl=wall.vn%2Fwp-content%2Fuploads%2F2019%2F11%2Fhinh-anh-cun-con-de-thuong-25.jpg&rurl=https%3A%2F%2Fwall.vn%2Fhinh-nen-cun-con-dang-yeu-kute.html&size=1068.4KB&p=h%C3%ACnh+%E1%BA%A3nh+c%C3%BAn+con&oid=e14d9fececb340ff77f0456a7ad7caeb&fr2=piv-web&fr=&tt=T%E1%BB%95ng+h%E1%BB%A3p+50%2B+h%C3%ACnh+n%E1%BB%81n+c%C3%BAn+con+%C4%91%C3%A1ng+y%C3%AAu+nh%E1%BA%A5t+cho+ng%C6%B0%E1%BB%9Di+y%C3%AAu+%C4%91%E1%BB%99ng+v%E1%BA%ADt&b=181&ni=21&no=186&ts=&tab=organic&sigr=8_VnjR3t66qs&sigb=K5bldCTun1Gy&sigi=W3YDMqPmEXnP&sigt=.aB6R3YEx2Sv&.crumb=kfhKBExB6e2&fr2=piv-web');
+}
+
+
+li {
+    display: inline-block;
+    background: blue;
+    
+}
+.love {
+    width: 300px;
+    height: 300px;
+    border: chartreuse;
+    border-width: 12px;
+    border-image: url("https://images.search.yahoo.com/images/view;_ylt=Awr9FqwwhM1hFCgAaUmJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2UxNGQ5ZmVjZWNiMzQwZmY3N2YwNDU2YTdhZDdjYWViBGdwb3MDMTg2BGl0A2Jpbmc-?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dh%25C3%25ACnh%2B%25E1%25BA%25A3nh%2Bc%25C3%25BAn%2Bcon%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D186&w=1920&h=1080&imgurl=wall.vn%2Fwp-content%2Fuploads%2F2019%2F11%2Fhinh-anh-cun-con-de-thuong-25.jpg&rurl=https%3A%2F%2Fwall.vn%2Fhinh-nen-cun-con-dang-yeu-kute.html&size=1068.4KB&p=h%C3%ACnh+%E1%BA%A3nh+c%C3%BAn+con&oid=e14d9fececb340ff77f0456a7ad7caeb&fr2=piv-web&fr=&tt=T%E1%BB%95ng+h%E1%BB%A3p+50%2B+h%C3%ACnh+n%E1%BB%81n+c%C3%BAn+con+%C4%91%C3%A1ng+y%C3%AAu+nh%E1%BA%A5t+cho+ng%C6%B0%E1%BB%9Di+y%C3%AAu+%C4%91%E1%BB%99ng+v%E1%BA%ADt&b=181&ni=21&no=186&ts=&tab=organic&sigr=8_VnjR3t66qs&sigb=K5bldCTun1Gy&sigi=W3YDMqPmEXnP&sigt=.aB6R3YEx2Sv&.crumb=kfhKBExB6e2&fr2=piv-web");
+    border: 10px ridge rgb(16, 109, 21);
+    padding: 20px;
+    margin: 50px;
+    /* hình khung bóng trái phải trên dưới */
+    box-shadow: 5px 5px 5px 8px rgb(51, 44, 44);
+    border-image: url('https://th.bing.com/th/id/R.a402507c9a3570e5677ed672c2f31bed?rik=2p0Lgdc4XgDVnw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f14%2f33200-anime-anime_girls-headphones-K-ON-Akiyama_Mio.jpg&ehk=He4srMLYFKXaIQb8rYnq2FSiAqx1GHKklyq%2bcx%2bR7nU%3d&risl=&pid=ImgRaw&r=0')25 repeat;
+}
+/* học css hôm nay.chapter 13 continue */
+.halo {
+    width: 300px;
+    height: 300px;
+    border:15px solid blue;
+    border-width: 13px;
+    font-size: large;
+    font-style: inherit;
+    font:inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 30px 60px 70px 40px rgb(255, 19, 201);
+    border-image: url("https://tse1.mm.bing.net/th?id=OIP.rs7Y0FF97_u3bI3q9Fm-_AHaFY&pid=Api&P=0&w=238&h=173")25 round;
+    text-align: center;
+    margin: 100px 700px 1000px;
+    border-bottom-style: double;
+    border-radius: 10%;
+    font-style:normal;
+}
+

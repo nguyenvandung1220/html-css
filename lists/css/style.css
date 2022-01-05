@@ -1,6 +1,6 @@
 *{
-    text-align: center;
-    color: rgb(145, 0, 60);
+    
+    color: hsl(224, 85%, 3%);
 }
 .kho1 ul{
   
@@ -8,12 +8,14 @@
     list-style-type: disc;  
     font-size: x-large;
     background-image: url("https://www.tuyengiao.vn/Uploads/2018/Images/Normal/2018/4/55d13037597633861e53a8fe1a72e6c3-4.30.4..jpg");
+    text-align: center;
 }
 .kho2 ul{
     /* kiểu của list :viền vuông */
     list-style-type: square;
     font-size: xx-large;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.7EbwEVjCEp6hG-D5CJodQgHaEZ&pid=Api&P=0&w=297&h=176");
+    text-align: center;
 }
 
 
@@ -23,4 +25,20 @@
     list-style-type: circle;
     font-size: xx-large;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.7WPbZtK9vDk09_-YfCZyBAHaE7&pid=Api&P=0&w=268&h=178");
+    text-align: center;
+}
+
+/* continue khổ 4 css */
+.kho4 ul{
+    list-style-position: outside;
+    font-size: xx-large;
+    background-color: chartreuse;
+}
+.kho4 ol{
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: xx-large;
+}
+.kho4 ul{
+    list-style: outside;
 }

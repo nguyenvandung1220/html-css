@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/form and table/css/reset.css">
+   <link rel="stylesheet" href="/form and table/css/style.css">
+    <title>Bai Tap Web</title>
+</head>
+<body>
+    <form>
+        <div class="ten_matkhau">
+           <table>
+               <tr>
+                   <td>Tên: </td>
+                   <td><input type="text" required></td>
+               </tr>
+               <tr>
+                   <td>Mật khẩu: </td>
+                   <td><input type="password" required></td>
+               </tr>
+           </table>
+       </div>
+      <div class="thanh_pho">
+            <table>
+                <tr>
+                    <td>Thành phố: </td>
+                    <td><select>
+                            <option>--chọn thành phố--</option>
+                            <option value="hue">Huế</option>
+                            <option value="quang_nam">Quãng Nam</option>
+                            <option value="quang_tri">Quãng Trị</option>
+                    </select></td>
+                </tr>
+            </table>
+      </div>
+      <div class="gioi_tinh">
+            <table>
+                <tr>
+                    <td>Giới tính: </td>
+                    <td><input type="radio" name="gioitinh">Nam</td>
+                    <td><input type="radio" name="gioitinh">Nữ</td>
+                </tr>
+            </table>
+      </div>
+      <div class="avatar">
+            <table>
+                <tr>
+                    <td>Avatar:</td>
+                    <td></td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+      </div>
+      <div class="ngon_ngu">
+            <table>
+                <tr>
+                    <td>Ngôn ngữ: </td>
+                    <td><input type="checkbox" name="JAVA">JAVA</td>
+                    <td><input type="checkbox" name="NODEJS">NODEJS</td>
+                    <td><input type="checkbox" name="PHP">PHP</td>
+                </tr>
+            </table>
+       </div>
+       <div class="submit">
+           <input type="submit" onclick="alert('click bậy bị ban acc nha cưng')"
+            value="confirm" size="3">
+       </div>
+    </form><br>
+    <form>
+        <table>
+            <tr>
+                <td>Username: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" 
+                onclick="alert('click bậy ban acc r bạn gì đó ơi')" 
+                value="Click me"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
